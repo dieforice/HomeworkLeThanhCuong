@@ -1,0 +1,5 @@
+D:\Program Files (x86)\Python\homework-lethanhcuong\Session6\Session6homework\obj\x86\Debug\Session6homework.csprojResolveAssemblyReference.cache
+D:\Program Files (x86)\Python\homework-lethanhcuong\Session6\Session6homework\bin\Debug\Session6homework.exe
+D:\Program Files (x86)\Python\homework-lethanhcuong\Session6\Session6homework\bin\Debug\Session6homework.pdb
+D:\Program Files (x86)\Python\homework-lethanhcuong\Session6\Session6homework\obj\x86\Debug\Session6homework.exe
+D:\Program Files (x86)\Python\homework-lethanhcuong\Session6\Session6homework\obj\x86\Debug\Session6homework.pdb

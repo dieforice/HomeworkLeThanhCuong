@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="Session6homework\Session6homework.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Session6homework\Program.cs">
+    <Files>
+      <File FileName="Session6homework\Program.cs" Line="4" Column="2" />
+      <File FileName="Session6homework\BMI.cs" Line="14" Column="52" />
+      <File FileName="Session6homework\PrintNewLine.cs" Line="12" Column="41" />
+      <File FileName="Session6homework\Star.cs" Line="14" Column="33" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="D:\Program Files (x86)\Python\homework-lethanhcuong\Session6\Session6homework\Program.cs" line="12" column="1" />
+      <Breakpoint file="D:\Program Files (x86)\Python\homework-lethanhcuong\Session6\Session6homework\Star.cs" line="18" column="25" />
+      <Breakpoint file="D:\Program Files (x86)\Python\homework-lethanhcuong\Session6\Session6homework\Star.cs" line="20" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
