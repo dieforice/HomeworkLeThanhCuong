@@ -6,9 +6,9 @@ namespace Session6homework
 	{
 		public BMI ()
 		{
-			Console.Write ("What is your weight");
+			Console.Write ("What is your weight in kg");
 			float weight = float.Parse(Console.ReadLine ());
-			Console.Write ("What is your height");
+			Console.Write ("What is your height in cm");
 			float height = float.Parse(Console.ReadLine ());
 			float BMI = weight / ((height / 100) * (height / 100));
 			Console.WriteLine ("Your BMI number is " + BMI);
