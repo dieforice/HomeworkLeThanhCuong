@@ -1,0 +1,21 @@
+1.
+>>> 6 == 5
+False
+>>> 5 != 6
+True
+>>> x = 3
+>>> y = 7
+>>> (x+y)/2 == y - x + 1
+True
+
+2. Flowchart is the visual form of the Python languagea and is also very helpful in writing program and explaing one to others.
+
+3. Nested conditionals: 
+A conditional can be nested in another conditional. Exp:
+if can_nang > 100:
+   print("nguoi nang ki")
+else:
+   if can_nang < 100:
+      print("nguoi nhe ki")
+   else:
+      print("nguoi nang binh thuong")
