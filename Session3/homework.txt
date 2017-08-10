@@ -1,0 +1,31 @@
+- What is nested list?
+A list that is included in another list. For exp:
+>>> a= [1, 2, 3, 4,[20, 10]]
+>>> print(a[4])
+{20, 10]
+- Can a list store both intergers and strings in it?
+Yes, it can.
+
+-Exercise1:
+>>> list(range(10,0,-2))
+[10,8,6,4,2]
+
+>>> list(range(0,10,-2))
+[]
+the list command will result in an empty list
+
+the relationship among "start, stop, step":
+    start: the start point. the number that is listed as the start point will equal to point in the list.
+    stop: the end point, the number that is listed as the end point will larger or smaller than the point in the list (one step less).
+    step: the amount of number that the list will change gradually, increase or decrease depends on the start and stop ponts.
+for exp:
+>>> list(range(15,5,-3))
+[15,12,9,6]
+>>> list(range(5,100,25))
+[5,30,55,80]
+
+
+-Exercise2:
+There will be only one turtle because "alex" is not another turtle but a variable for tess.Turtle. 
+so it will have one turtle and if we change the color of the variable(alex) then we will change the color of the turtle
+
