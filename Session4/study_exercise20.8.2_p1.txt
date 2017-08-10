@@ -1,0 +1,26 @@
+>>> d = {"apple" : 15, "banana" : 35, "grapes" : 12}
+>>> d["banana"]
+35
+-
+>>> d["oranges"] = 20 (add "orange" : 20 to the dict)
+>>> len(d) 
+4 
+-
+>>> "grapes" in d
+True (this function shows the user whether "grapes" is a key in d or not)
+-
+>>> d["pears"]
+error because "pears" is not in the dictionary
+-
+>>> d.get("pears", 0)
+0
+-
+>>> fruits = list(d.keys())
+>>> fruits.sort()
+>>> print(fruits)
+['apple', 'banana', 'grapes', 'oranges']
+-
+>>> del d["apples"]
+error because the is no "apples" to remove from the dict
+>>> "apples" in d
+False
