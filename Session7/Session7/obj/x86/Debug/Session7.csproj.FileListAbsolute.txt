@@ -1,0 +1,5 @@
+D:\Program Files (x86)\HomeworkLeThanhCuong\Session7\Session7\obj\x86\Debug\Session7.csprojResolveAssemblyReference.cache
+D:\Program Files (x86)\HomeworkLeThanhCuong\Session7\Session7\bin\Debug\Session7.exe
+D:\Program Files (x86)\HomeworkLeThanhCuong\Session7\Session7\bin\Debug\Session7.pdb
+D:\Program Files (x86)\HomeworkLeThanhCuong\Session7\Session7\obj\x86\Debug\Session7.exe
+D:\Program Files (x86)\HomeworkLeThanhCuong\Session7\Session7\obj\x86\Debug\Session7.pdb
