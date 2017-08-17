@@ -27,6 +27,8 @@ public class GameController : MonoBehaviour {
 		displayText.text = "Pick a number between 0 and 100, I guess the number is " + guessNumber;
 		guessCount++;
 		playAgain.gameObject.SetActive (false);
+		chooseHigher.gameObject.SetActive (true);
+		chooseLower.gameObject.SetActive (true);
 	}
 	public void ChooseLower()
 	{
@@ -34,6 +36,7 @@ public class GameController : MonoBehaviour {
 		guessNumber = Random.Range (min, max);
 		displayText.text = "A lower number? Is it " + guessNumber + " ?";
 		guessCount++;
+		LastResult ();
 	}
 	public void ChooseHigher()
 	{
@@ -45,6 +48,7 @@ public class GameController : MonoBehaviour {
 			guessNumber = 100;
 		}
 		displayText.text = "A higher number? Is it " + guessNumber + " ?";
+		LastResult ();
 	}
 	public void ChooseYes()
 	{
@@ -56,6 +60,15 @@ public class GameController : MonoBehaviour {
 		else 
 		{
 			displayText.text = "Flawless! I only need " + guessCount + " to predict your number";
+		}
+	}
+	public void LastResult()
+	{
+		if (min >=max) 
+		{
+			displayText.text = "Last Result is " + guessNumber;
+			chooseHigher.gameObject.SetActive (false);
+			chooseLower.gameObject.SetActive (false);
 		}
 	}
 	public void PlayAgain()
